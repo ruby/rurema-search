@@ -24,6 +24,8 @@ gem "bitclust-dev", github: "rurema/bitclust"
 
 gem 'rack-protection'
 
+gem 'rexml'
+
 group :development, :test do
   gem 'capistrano'
   gem 'capistrano-bundler'
