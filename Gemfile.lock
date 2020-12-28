@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/rurema/bitclust.git
+  revision: fae0a0d31df8578338b79774709d2191c60e2ecc
+  specs:
+    bitclust-core (1.2.7)
+      progressbar (>= 1.9.0, < 2.0)
+      rack
+      webrick
+    bitclust-dev (1.2.7)
+      bitclust-core (= 1.2.7)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,11 +19,6 @@ GEM
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     bcrypt_pbkdf (1.0.0)
-    bitclust-core (1.2.0)
-      progressbar (= 0.21.0)
-      rack
-    bitclust-dev (1.2.0)
-      bitclust-core (= 1.2.0)
     capistrano (3.10.2)
       airbrussh (>= 1.0.0)
       i18n
@@ -56,7 +62,7 @@ GEM
       mini_portile2 (~> 2.3.0)
     pkg-config (1.3.0)
     power_assert (1.1.1)
-    progressbar (0.21.0)
+    progressbar (1.10.1)
     public_suffix (3.0.2)
     rack (2.0.4)
     rack-protection (2.0.1)
@@ -87,6 +93,7 @@ GEM
       test-unit (>= 2.5.3)
     test-unit-notify (1.0.4)
       test-unit (>= 2.4.9)
+    webrick (1.7.0)
     xpath (3.0.0)
       nokogiri (~> 1.8)
 
@@ -95,8 +102,8 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt_pbkdf
-  bitclust-core
-  bitclust-dev
+  bitclust-core!
+  bitclust-dev!
   capistrano
   capistrano-bundler
   rack-protection
@@ -108,3 +115,6 @@ DEPENDENCIES
   test-unit
   test-unit-capybara
   test-unit-notify
+
+BUNDLED WITH
+   2.1.4
