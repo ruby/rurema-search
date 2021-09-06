@@ -72,7 +72,7 @@ GEM
     racknga (0.9.3)
       rack
       rroonga
-    rake (12.3.1)
+    rake (12.3.3)
     rbnacl (4.0.2)
       ffi
     rbnacl-libsodium (1.0.16)
