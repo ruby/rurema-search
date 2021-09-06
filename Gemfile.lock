@@ -35,7 +35,7 @@ GEM
       rack-test (>= 0.6.3)
       xpath (~> 3.0)
     concurrent-ruby (1.0.5)
-    ffi (1.9.23)
+    ffi (1.15.4)
     gqtp (1.0.6)
     groonga-client (0.5.8)
       gqtp (>= 1.0.4)
