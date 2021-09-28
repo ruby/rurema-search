@@ -21,8 +21,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "rroonga"
 gem "racknga"
-gem "bitclust-core", github: "rurema/bitclust"
-gem "bitclust-dev", github: "rurema/bitclust"
+gem "bitclust-core"
+gem "bitclust-dev"
 
 gem 'rack-protection'
 
