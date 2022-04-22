@@ -29,7 +29,6 @@ GEM
       xpath (~> 3.2)
     concurrent-ruby (1.1.9)
     ed25519 (1.2.4)
-    ffi (1.15.4)
     gqtp (1.0.7)
     groonga-client (0.6.5)
       gqtp (>= 1.0.4)
@@ -70,10 +69,6 @@ GEM
       rack
       rroonga
     rake (13.0.6)
-    rbnacl (4.0.2)
-      ffi
-    rbnacl-libsodium (1.0.16)
-      rbnacl (>= 3.0.1)
     regexp_parser (2.1.1)
     rexml (3.2.5)
     rroonga (11.0.6)
@@ -109,10 +104,11 @@ DEPENDENCIES
   rack-protection
   racknga
   rake
-  rbnacl (< 5.0.0)
-  rbnacl-libsodium
   rexml
   rroonga
   test-unit
   test-unit-capybara
   test-unit-notify
+
+BUNDLED WITH
+   2.3.11

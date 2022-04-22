@@ -31,8 +31,6 @@ gem 'rexml'
 group :development, :test do
   gem 'capistrano'
   gem 'capistrano-bundler'
-  gem 'rbnacl', '< 5.0.0'
-  gem 'rbnacl-libsodium'
   gem 'ed25519'
   gem 'bcrypt_pbkdf'
   gem "test-unit"
