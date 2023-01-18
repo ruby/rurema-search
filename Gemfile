@@ -24,6 +24,7 @@ gem "racknga"
 gem "bitclust-core"
 gem "bitclust-dev"
 
+gem "rack", "< 3"
 gem 'rack-protection'
 
 gem 'rexml'
