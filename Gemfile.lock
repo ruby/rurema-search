@@ -72,8 +72,8 @@ GEM
       rroonga
     rake (13.0.6)
     regexp_parser (2.6.1)
-    rexml (3.2.7)
-      strscan (>= 3.0.9)
+    rexml (3.3.2)
+      strscan
     rroonga (12.1.0)
       groonga-client (>= 0.0.3)
       json
