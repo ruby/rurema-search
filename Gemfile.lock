@@ -51,7 +51,7 @@ GEM
       logger
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
-    json (2.19.2)
+    json (2.19.9)
     json-stream (1.0.0)
     logger (1.7.0)
     matrix (0.4.3)
